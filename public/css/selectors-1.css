@@ -4,28 +4,28 @@ h3 {
      }
 
 fieldset {
-          background-color:gray; /* Sets the background color of the element */
-          padding: 3px; /* Adjusts the top, right, bottom and left padding of the element */
-          margin: 3px; /* Adjusts the top, right, bottom and left margin of the element */
+          background-color:gray; /* background color of element */
+          padding: 3px; /* Adjusts top, right, bottom and left padding of element */
+          margin: 3px; /* Adjusts top, right, bottom and left margin of element */
           width: 100px;
-          margin: 0px auto; /* Sets the top and bottom margin to 0px and the left and right margin are automatically calculated */
+          margin: 0px auto; /* top and bottom margin = 0px; left and right margin = automatically calculated */
           }
 
 input { 
-     font-family: "Courier Sans"; /* Sets the font of the element */
-     font-size: 20px; /* Sets the font size of the element */
+     font-family: "Courier Sans"; /* font of element */
+     font-size: 20px; /* font size of element */
      }
 
 #text {
-     font-weight: bold; /* Sets the thickness of characters in a text (normal, bold or a constant value) */
+     font-weight: bold; /* thickness of characters in a text (normal, bold or a constant value) */
      font-family: Georgia, "Times New Roman", Serif;
-     color: #ff69b4; /* Sets the color of the text (color name, hex value or rgb value)*/
-     text-decoration: underline; /* Sets the decoration added to text (overline, line-through or underline) */
-     text-align: justify; /* Sets the horizontal alignment of text in an element (center, left or right) */
+     color: #ff69b4; /* text color (color name, hex value or rgb value)*/
+     text-decoration: underline; /* text decoration (overline, line-through or underline) */
+     text-align: justify; /* horizontal alignment of text in element (center, left or right) */
      }
 
 #colors {
-     list-style-type: square; /* Specifies the type of list-item marker in a list (square, circle or disc) */
+     list-style-type: square; /* type of list-item marker in list (square, circle or disc) */
      }
      
 #green-colors {
@@ -35,16 +35,16 @@ input {
 img {
      width: 80px;
      height: 60px;
-     padding: 3px; /* Adjusts the top, right, bottom and left padding of the element */
-     margin: 3px; /* Adjusts the top, right, bottom and left margin of the element */
+     padding: 3px; /* top, right, bottom and left padding of element */
+     margin: 3px; /*  top, right, bottom and left margin of element */
      }
 
 .text {
-     font-style: italic; /* Specifies the font style for a text (normal, italic or oblique) */
-     text-indent: 50px; /* Specifies the indentation of the first line in a text-block */
-     text-transform: uppercase; /* Sets the capitalization of text (uppercase, lowercase or capitalize) */
-     border: 5px solid black; /* Sets the border of the element (line, style and color) */
-     vertical-align: middle; /* Sets the vertical alignment of an element (top, middle or bottom) */
+     font-style: italic; /* text font style (normal, italic or oblique) */
+     text-indent: 50px; /* indentation of first line in text-block */
+     text-transform: uppercase; /* capitalization of text (uppercase, lowercase or capitalize) */
+     border: 5px solid black; /*  border of the element (line, style and color) */
+     vertical-align: middle; /* vertical alignment of element (top, middle or bottom) */
      }
 
 /* if link is not yet visited */
