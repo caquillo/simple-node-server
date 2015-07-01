@@ -32,6 +32,7 @@ img {
      height: 60px;
      padding: 3px; /* Adjusts the top, right, bottom and left padding of the element */
      margin: 3px; /* Adjusts the top, right, bottom and left margin of the element */
+     float:right;
 }
 
 .text {
