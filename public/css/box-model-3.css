@@ -3,32 +3,32 @@ body {
 }
 
 .whole {
-     background-color:#cbe5ff;
-}
-
-.preview {
-     background-color:#84befe;
-}
-
-.container {
      width:900px;
+     padding:40px;
+     border:solid #CBE5FF;
+     background-color:#CBE5FF;
 }
+
+/* #84befe (darker) and #cbe5ff (lighter) */
 
 /* if link is not yet visited */
 a:link {
      color:white;
-     background-color:#84befe;
+     text-decoration:none;
+     background-color:#84BEFE;
 }
 
 /* if link is already visited*/
 a:visited {
      color:white;
-     background-color:#84befe;
+     text-decoration:none;
+     background-color:#84BEFE;
 }
 
 /* if link is hovered (mouse over) */
 a:hover {
-     color:#84befe;
+     color:#84BEFE;
+     text-decoration:underline;
      background-color:white;
 }
 
@@ -36,4 +36,6 @@ a:hover {
      position:fixed;
      top:200px;
      right:-5px;
+     border:dashed #CBE5FF;
+     /* I'm acutally not sure about this cos it doesn't specify if those two values are for the margin, padding, or what... ugh */
 }
