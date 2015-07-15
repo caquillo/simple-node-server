@@ -1,41 +1,53 @@
+/* The two shades of blue to be used are: #84befe (darker) and #cbe5ff (lighter) */
+
 body {
      font-family:Arial;
-}
-
-.whole {
-     width:900px;
-     padding:40px;
-     border:solid #CBE5FF;
-     background-color:#CBE5FF;
-}
-
-/* #84befe (darker) and #cbe5ff (lighter) */
-
-/* if link is not yet visited */
-a:link {
-     color:white;
-     text-decoration:none;
-     background-color:#84BEFE;
-}
-
-/* if link is already visited*/
-a:visited {
-     color:white;
-     text-decoration:none;
-     background-color:#84BEFE;
-}
-
-/* if link is hovered (mouse over) */
-a:hover {
-     color:#84BEFE;
-     text-decoration:underline;
-     background-color:white;
 }
 
 .rect {
      position:fixed;
      top:200px;
      right:-5px;
-     border:dashed #CBE5FF;
-     /* I'm acutally not sure about this cos it doesn't specify if those two values are for the margin, padding, or what... ugh */
+     width:30px;
+     padding:20px 10px;
+     border:2.2px dashed #84befe;
+     text-align:center;
 }
+
+.rect a {
+     color:#84befe;
+     text-decoration:none;
+}
+
+.whole {
+     background-color:#cbe5ff;
+     width:900px;
+     padding:40px;
+     border:solid #cbe5ff;
+     margin:30px auto;
+}
+
+.header {
+     width:900px;
+}
+
+.box {
+     background-color:white;
+     width:200px;
+     height:200px;
+     border:solid white;
+     position:relative;
+}
+
+.preview {
+     background-color:#84befe;
+     width:720px;
+     height:360px;
+     border:solid #84befe;
+     margin-bottom: -180px;
+     margin-left: 240px;
+     position: relative;
+     top:-200px;
+     left: -40px;
+}
+
