@@ -19,7 +19,7 @@
                <ul id="dropdown1" class="dropdown-content">
                     <li><a href="http://simple-node-server-caquillo.c9.io/modern-internet/index.html"><i class="left material-icons">location_city</i>Home</a></li>
                     <li class="divider"></li>
-                    <li><a href="http://simple-node-server-caquillo.c9.io/modern-internet/network-protocols.html">Network Protocols</a></li>
+                    <li class="active"><a href="http://simple-node-server-caquillo.c9.io/modern-internet/network-protocols.html">Network Protocols</a></li>
                     <li class="divider"></li>
                     <li><a href="http://simple-node-server-caquillo.c9.io/modern-internet/email.html">Email</a></li>
                     <li class="divider"></li>
@@ -43,7 +43,7 @@
                     
                     <ul id="nav-mobile" class="side-nav">
                          <li><a href="http://simple-node-server-caquillo.c9.io/modern-internet/index.html"><i class="left material-icons">location_city</i>Home</a></li>
-                         <li><a href="http://simple-node-server-caquillo.c9.io/modern-internet/network-protocols.html">Network Protocols</a></li>
+                         <li class="active"><a href="http://simple-node-server-caquillo.c9.io/modern-internet/network-protocols.html">Network Protocols</a></li>
                          <li><a href="http://simple-node-server-caquillo.c9.io/modern-internet/email.html">Email</a></li>
                          <li><a href="http://simple-node-server-caquillo.c9.io/modern-internet/search-engines.html">Search Enginges</a></li>
                          <li><a href="http://simple-node-server-caquillo.c9.io/modern-internet/blogging.html">Blogging</a></li>
@@ -55,21 +55,27 @@
                   </div>
                </nav>
 
-<div class="container">               
-  <div class="card">
-    <div class="card-image waves-effect waves-block waves-light">
-      <img class="activator" src="materialize/background1.jpg">
-    </div>
-    <div class="card-content">
-      <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-      <p><a href="#">This is a link</a></p>
-    </div>
-    <div class="card-reveal">
-      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-      <p>Here is some more information about this product that is only revealed once clicked on.</p>
-    </div>
-  </div>
-</div>
+               <br>
+
+               <!-- THIS CONTAINS THE PARTS YOU HAVE TO CHANGE -->
+               <div class="container">
+                <div class="row">
+                  <div class="col s12">
+                    <div class="card large">
+                      <div class="card-image">
+                        <img src="materialize/photo1.jpg"> <!-- CHANGE THE PHOTO -->
+                        <span class="card-title">Network Protocols</span> <!-- CHANGE THE CARD TITLE -->
+                      </div>
+                      <div class="card-content">
+                        <p id="network">Brief information on how modern-day computers send and receive information using the current network protocols</p> <!-- CHANGE THE CONTENT AND ID -->
+                      </div>
+                      <div class="card-action">
+                        <a href="#" onclick="readon()">Read on</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+               </div>
 
                <!-- Footer -->
                <footer class="page-footer teal">
@@ -121,6 +127,13 @@
                      belowOrigin: true // Displays dropdown below the button
                    }
                  );
+               </script>
+               
+               <!-- CHANGE THE ONE INSIDE ('') AND THE ONE INSIDE '' -->
+               <script>
+                    function readon() {
+                      document.getElementById('network').innerHTML = 'insert content here'
+                    }
                </script>
               
            </body>
