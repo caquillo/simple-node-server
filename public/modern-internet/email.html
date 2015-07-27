@@ -15,36 +15,34 @@
           </head>
 
           <body>
-               <!-- Dropdown Structure -->
-               <ul id="dropdown1" class="dropdown-content">
-                    <li><a href="http://simple-node-server-caquillo.c9.io/modern-internet/index.html"><i class="left material-icons">location_city</i>Home</a></li>
-                    <li class="divider"></li>
-                    <li><a href="http://simple-node-server-caquillo.c9.io/modern-internet/network-protocols.html">Network Protocols</a></li>
-                    <li class="divider"></li>
-                    <li class="active"><a href="http://simple-node-server-caquillo.c9.io/modern-internet/email.html">Email</a></li>
-                    <li class="divider"></li>
-                    <li><a href="http://simple-node-server-caquillo.c9.io/modern-internet/search-engines.html">Search Enginges</a></li>
-                    <li class="divider"></li>
-                    <li><a href="http://simple-node-server-caquillo.c9.io/modern-internet/blogging.html">Blogging</a></li>
-                    <li class="divider"></li>
-                    <li><a href="http://simple-node-server-caquillo.c9.io/modern-internet/video-streaming.html">Video Streaming</a></li>
-                    <li class="divider"></li>
-                    <li><a href="http://simple-node-server-caquillo.c9.io/modern-internet/microblog-social-networking.html">Microblog Social Networking</a></li>
-                    <li class="divider"></li>
-               </ul>
-               
-               <!-- Navigation bar -->
+                              <!-- Navigation bar -->
                <nav class="white" role="navigation">
-                  <div class="nav-wrapper">
+                  <div class="nav-wrapper container">
                     <a id="logo-container" href="http://simple-node-server-caquillo.c9.io/modern-internet/index.html" class="brand-logo">CMSC2 Works</a>
                     <ul class="right hide-on-med-and-down">
                       <li><a class="dropdown-button" href="#!" data-activates="dropdown1">N°2 Topics<i class="material-icons right">expand_more</i></a>
+                        <!-- Dropdown Structure -->
+                         <ul id="dropdown1" class="dropdown-content">
+                              <li><a href="http://simple-node-server-caquillo.c9.io/modern-internet/index.html" class="red-text text-lighten-3"><i class="left material-icons">location_city</i>Home</a></li>
+                              <li><a href="http://simple-node-server-caquillo.c9.io/modern-internet/network-protocols.html" class="red-text text-lighten-3">Network Protocols</a></li>
+                              <li class="divider"></li>
+                              <li class="active"><a href="http://simple-node-server-caquillo.c9.io/modern-internet/email.html" class="red-text text-lighten-3">Email</a></li>
+                              <li class="divider"></li>
+                              <li><a href="http://simple-node-server-caquillo.c9.io/modern-internet/search-engines.html" class="red-text text-lighten-3">Search Enginges</a></li>
+                              <li class="divider"></li>
+                              <li><a href="http://simple-node-server-caquillo.c9.io/modern-internet/blogging.html" class="red-text text-lighten-3">Blogging</a></li>
+                              <li class="divider"></li>
+                              <li><a href="http://simple-node-server-caquillo.c9.io/modern-internet/video-streaming.html" class="red-text text-lighten-3">Video Streaming</a></li>
+                              <li class="divider"></li>
+                              <li><a href="http://simple-node-server-caquillo.c9.io/modern-internet/microblog-social-networking.html" class="red-text text-lighten-3">Microblog Social Networking</a></li>
+                              <li class="divider"></li>
+                         </ul>
                     </ul>
                     
                     <ul id="nav-mobile" class="side-nav">
                          <li><a href="http://simple-node-server-caquillo.c9.io/modern-internet/index.html"><i class="left material-icons">location_city</i>Home</a></li>
                          <li><a href="http://simple-node-server-caquillo.c9.io/modern-internet/network-protocols.html">Network Protocols</a></li>
-                         <li class="active"><a href="http://simple-node-server-caquillo.c9.io/modern-internet/email.html">Email</a></li>
+                         <li><a href="http://simple-node-server-caquillo.c9.io/modern-internet/email.html">Email</a></li>
                          <li><a href="http://simple-node-server-caquillo.c9.io/modern-internet/search-engines.html">Search Enginges</a></li>
                          <li><a href="http://simple-node-server-caquillo.c9.io/modern-internet/blogging.html">Blogging</a></li>
                          <li><a href="http://simple-node-server-caquillo.c9.io/modern-internet/video-streaming.html">Video Streaming</a></li>
@@ -55,30 +53,54 @@
                   </div>
                </nav>
 
-               <br>
-
-               <!-- THIS CONTAINS THE PARTS YOU HAVE TO CHANGE -->
-               <div class="container">
-                <div class="row">
-                  <div class="col s12">
-                    <div class="card">
-                      <div class="card-image">
-                        <img src="materialize/photo2.jpg"> <!-- CHANGE THE PHOTO -->
-                        <span class="card-title">Email</span> <!-- CHANGE THE CARD TITLE -->
-                      </div>
-                      <div class="card-content">
-                        <p id="email">Brief information on how email works</p> <!-- CHANGE THE CONTENT AND ID -->
-                      </div>
-                      <div class="card-action">
-                        <a href="#" onclick="readon()">Read on</a>
-                      </div>
+                              <!-- Last parallax -->
+               <div class="parallax-container valign-wrapper">
+                <div class="section no-pad-bot">
+                  <div class="container">
+                    <div class="row center">
+                      <h5 class="header col s12 light white-text">Brief information on how email works</h5>
                     </div>
                   </div>
                 </div>
+                <div class="parallax"><img src="materialize/photo2.jpg" alt="Unsplashed background img 2"></div>
+               </div>
+
+               <!-- for whole paragraphs -->
+               <div class="container">
+                <div class="section">
+            
+                  <div class="row">
+                    <div class="col s12 center">
+                      <h4><i class="medium material-icons brown-text">email</i></h4>
+                      <p class="center-align">
+                         <!-- Modal Trigger -->
+                                <a class="waves-effect waves-light red lighten-3 btn modal-trigger" href="#modal1">Read on</a>
+                              <!-- Modal Structure -->
+                                <div id="modal1" class="modal modal-fixed-footer">
+                                  <div class="modal-content left-align">
+                                    <h4>Email</h4>
+                                    <p>Today, Gmail and Yahoo are just some of the most common MUA - or Mail User Agents - being used to, well, send emails. When sending an electronic mail, the MUA sends the email to the Mail Delivery Agent (MDA); if the sender and receipient are from the same area, then they use the same MDA. But if the email has to be sent through a <em> wider area network</em> (WAN, in short), it has to go through the Internet cloud that consists of multiple mail servers, DNS, and routers. Some transmitters could get lost or take longer in the process because of the congestion in the Internet. To prevent such delays, e-mails have to be properly encapsulated with DNS, IP address, and sequence numbers so MDAs could send emails in the right direction. Having the correct DNS will allow the email to pass through firewalls and spam filters. To further prevent delays, MUAs often have their own mail servers that checks which MDA is available. It goes through the host and host chains, in which each MDA checks the IP address that is located on the header of the encapsulated data hence the next MDA could be identified. Most emails take the path that is dependent on server availability. Eventually the Mail Transfer Agent (MTA) will locate the local domain information then asks the appropriate DNS for proper information.<br>Another way of sending emails is through standard clients like Outlook. Unlike MUAs, emails are sent using SMTP (Simple Mail Transport Protocol) which goes like this: email is sent from the cloud to a server >> email goes through <strong>every</strong> email server until it finally lands on the receipient's server >> receipient either uses POP3 or IMAP, which are servers for receiving email. When (or rather <strong><em>if</em></strong>) the receiver decides to reply, he does so through SMTP once again. The flow of the email is the same as the flow of the initial email but with a few exeptions: POP3 is the only server being used this time to receive the email. Should the sender use a web page client, he makes use of HTTP, instead of SMTP, to connect to a web page on the Internet. Take note that the e-mail server needs to support the web mail. The sender then uses a browser such as Google Chrome or Safari to connect to the Internet and compose an email; transfer of email is done through SMTP. The receipient this time has three options to retrieve the email - either using POP3, IMAP4, or him accessing his email on the Internet using HTTP. In the last option, the email stays on the Internet server but is not transferred to the receipient.</p>
+                                  </div>
+                                  <div class="modal-footer">
+                                    <a href="#!" class=" modal-action modal-close waves-effect waves-light btn-flat">Close</a>
+                                  </div>
+                                </div></p>
+
+                    </div>
+                  </div>
+            
+                </div>
+               </div>
+
+               <!-- Button -->
+               <div class="fixed-action-btn" style="top: 42%; right: 24px;">
+                   <a href="http://simple-node-server-caquillo.c9.io/modern-internet/search-engines.html" class="btn-floating btn-large transparent">
+                     <i class="medium material-icons white-text">arrow_forward</i>
+                   </a>
                </div>
 
                <!-- Footer -->
-               <footer class="page-footer teal">
+               <footer class="page-footer red lighten-3">
                 <div class="container">
                   <div class="row">
                     <div class="col l6 s12">
@@ -108,7 +130,7 @@
                 </div>
                 <div class="footer-copyright">
                   <div class="container">
-                  All rights reserved © CA Works 2015 | Design by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+                  All rights reserved © CA Works 2015 | Design by <a class="white-text" href="http://materializecss.com">Materialize</a>
                   </div>
                 </div>
               </footer>
@@ -129,12 +151,13 @@
                    }
                  );
                </script>
-               
-               <!-- CHANGE THE ONE INSIDE ('') AND THE ONE INSIDE '' -->
+
                <script>
-                    function readon() {
-                      document.getElementById('email').innerHTML = 'Some of the most common Mail User Agents (MUA) we have are Gmail, Hotmail, and Yahoo. When sending an electronic mail, the MUA sends the email to the Mail Delivery Agent (MDA). If the sender and receiver are from the same area, then they use the same MDA. But if the email has to be sent through a Wider Area Network (WAN), it has to go through the Internet cloud that consists of multiple mail servers, DNS, and routers. Some transmitters could get lost or take longer in the process because of the congestion in the Internet. To prevent the delays, e-mails have to be properly encapsulated with DNS, IP address, and sequence numbers so MDAs could send the email in the right direction. Having the correct DNS will allow the email to pass through firewalls and spam filters. To further prevent delays, e-mail service providers often have their own mail servers that checks which MDA is available. It goes through the host and host chains, in which each MDA checks the IP address that is located on the header of the encapsulated data hence the next MDA could be identified. Most emails take the path that is dependent on server availability. Eventually the Mail Transfer Agent (MTA) will locate the local domain information that then asks the appropriate DNS for proper information. When sending and receiving e-mail using a standard client such as Outlook or Outlook Express, the e-mail is sent using a Simple Mail Transport Protocol (SMTP). The e-mail is sent from cloud machine to server, which is located on the Internet, which then goes through every email server until it lands on the email server of the recipient. The recipient then uses email server could POP3 or IMAP4 - which are servers used for receiving mail. Then the receiver replies through SMTP again, it goes across the Internet through SMTP then arrives at the email server of the initial sender. E-mail is then in the client machine after recipient accesses the e-mail through the Internet and uses the email server POP3. On the other hand, when using a web page client, the sender uses HTTP, instead of SMTP - which is a standard protocol to connecting to a web page on the Internet. The e-mail server needs to support the web mail. The sender then uses a browser such as Google Chrome, Firefox, Internet Explorer then connects to the Internet then finally composes the e-mail on the Internet. The e-mail is transferred using SMTP. The receiver has to use POP3 or IMAP4 to get the e-mail. Another option is for the receiver to access his e-mail on the Internet using http. The e-mail stays on the internet server but is not transferred to the receiver.'
-                    }
+                    $(document).ready(function(){
+                    // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+                    $('.modal-trigger').leanModal();
+                   }
+                 );
                </script>
               
            </body>
