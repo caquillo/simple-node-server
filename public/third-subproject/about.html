@@ -21,7 +21,7 @@
                     <a id="logo-container" href="http://simple-node-server-caquillo.c9.io/third-subproject/index.html" class="brand-logo">CMSC2 Works</a>
                     <ul class="right hide-on-med-and-down">
                       <li><a href="http://simple-node-server-caquillo.c9.io/third-subproject/manifesto.html">Manifesto</a></li>
-                      <li><a href="http://simple-node-server-caquillo.c9.io/third-subproject/about.html">About</a></li>
+                      <li class="active"><a href="http://simple-node-server-caquillo.c9.io/third-subproject/about.html">About</a></li>
                     </ul>
                     
                     <ul id="nav-mobile" class="side-nav">
@@ -32,63 +32,46 @@
                   </div>
                </nav>
 
-               <!-- 1st parallex -->
-               <div id="index-banner" class="parallax-container">
-                  <div class="section no-pad-bot">
-                    <div class="container">
-                      <br><br>
-                      <h1 class="header center indigo-text text-lighten-2">Presenting: Ello</h1>
-                    <div class="row center">
-                      <h5 class="header col s12 light white-text">A comprehensive overview of the "Beautiful & ad-free" social network</h5>
-                    </div>
-                    <div class="row center">
-                      <a href="http://simple-node-server-caquillo.c9.io/third-subproject/manifesto.html" id="download-button" class="btn-large waves-effect waves-light indigo lighten-2">Start</a>
-                    </div>
-                    <br><br>
-                    </div>
-                  </div>
-                <div class="parallax"><img src="materialize/background1.jpg" alt="Unsplashed background img 1"></div>
-               </div>
-
-               <!-- I wonder what this part does lol... nevermind, I know already; it's the container of the white section below the parallex part -->
-               <div class="container">
-                <div class="section">
-            
-                  <!-- Icon Section -->
-                  <div class="row">
-                    <div class="col s12 m6">
-                      <div class="icon-block">
-                        <h2 class="center teal-text text-darken-4"><i class="material-icons">loyalty</i></h2>
-                        <h5 class="center">Manifesto</h5>
-            
-                        <p class="light center">Beliefs, audacity, and an oath - all rolled into one short message that surely packs a punch</p>
-                      </div>
-                    </div>
-            
-                    <div class="col s12 m6">
-                      <div class="icon-block">
-                        <h2 class="center teal-text text-darken-4"><i class="material-icons">aspect_ratio</i></h2>
-                        <h5 class="center">About</h5>
-            
-                        <p class="light center">A peek into 'more-than-your-average' social networking site</p>
-                      </div>
-                    </div>
-            
-                  </div>
-            
-                </div>
-               </div>
-
                <!-- Last parallax -->
                <div class="parallax-container valign-wrapper">
                 <div class="section no-pad-bot">
                   <div class="container">
                     <div class="row center">
-                      <h5 class="header col s12 light white-text">Specifically made for Generation Y</h5>
+                      <h5 class="header col s12 light white-text">A peek into 'more-than-your-average' social networking site</h5>
                     </div>
                   </div>
                 </div>
-                <div class="parallax"><img src="materialize/background2.jpg" alt="Unsplashed background img 2"></div>
+                <div class="parallax"><img src="materialize/photo2.jpg" alt="Unsplashed background img 2"></div>
+               </div>
+
+               <!-- for whole paragraphs -->
+               <div class="container">
+                <div class="section">
+            
+                  <div class="row">
+                    <div class="col s12 center">
+                      <h4>About</h4>
+                      <ul class="collapsible popout" data-collapsible="accordion">
+                        <li>
+                          <div class="collapsible-header left-align"><i class="material-icons teal-text text-darken-4">aspect_ratio</i>A peek into 'more-than-your-average' social networking site</div>
+                          <div class="collapsible-body"><p><blockquote>Your social network is owned by advertisers.<br><br>Every post you share, every friend you make and every link you follow is tracked, recorded and converted into data. Advertisers buy your data so they can show you more ads. You are the product that's bought and sold.<br><br>We believe there is a better way. We believe in audacity. We believe in beauty, simplicity and transparency. We believe that the people who make things and the people who use them should be in partnership.<br><br>We believe a social network can be a tool for empowerment. Not a tool to deceive, coerce and manipulate - but a place to connect, create and celebrate life.<br><br>You are not a product.</blockquote></p><a class="waves-effect waves-indigo lighten-2 btn-flat" onclick="Materialize.toast('You coo', 3000)">Agree</a><a class="waves-effect waves-indigo lighten-2 btn-flat" onclick="Materialize.toast('Fine, peace out bean sprout', 3000)">Disagree</a></div>
+                        </li>
+                        <li>
+                          <div class="collapsible-header left-align"><i class="material-icons teal-text text-darken-4">comment</i>A nobody's humble opinion</div>
+                          <div class="collapsible-body"><p>The creators of <em>Ello</em> are bold and daring - I'll give them that. Being able to develop and maintain a social network without ads is a large feat, something they've been able to do since they've shared the social network to the outside of their litle artists circle. Let's face it, ads appearing left, right, and center - <strong><em>totally</em></strong> annoying BUT they do generate income. And income is something needed to keep a website, and a social network at that, up and running. In lieu of the creators allowing ads to infest their beautiful & ad-free social network, they've come up with different products (such as shirts and phone cases) and put them up for sale to take care of their bills *seems like it <em>is</em> doing its job just fine*. However, I still wonder until when they can keep ads out of the website...</p></div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+            
+                </div>
+               </div>
+               
+               <!-- Button -->
+               <div class="fixed-action-btn" style="top: 42%; right: 24px;">
+                   <a href="http://simple-node-server-caquillo.c9.io/third-subproject/index.html" class="btn-floating btn-large transparent">
+                     <i class="medium material-icons white-text">home</i>
+                   </a>
                </div>
 
                <!-- Footer -->
@@ -131,6 +114,14 @@
               <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
               <script src="materialize/js/materialize.js"></script>
               <script src="materialize/js/init.js"></script>
+              
+              <script>
+                   $(document).ready(function(){
+                   $('.collapsible').collapsible({
+                     accordion : true // A setting that changes the collapsible behavior to expandable instead of the default accordion style
+                   });
+                 });
+              </script>
 
            </body>
      </html>
