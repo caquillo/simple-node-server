@@ -15,30 +15,29 @@
           </head>
 
           <body>
-               <!-- Dropdown Structure -->
-               <ul id="dropdown1" class="dropdown-content">
-                    <li><a href="http://simple-node-server-caquillo.c9.io/modern-internet/index.html"><i class="left material-icons">location_city</i>Home</a></li>
-                    <li class="divider"></li>
-                    <li><a href="http://simple-node-server-caquillo.c9.io/modern-internet/network-protocols.html">Network Protocols</a></li>
-                    <li class="divider"></li>
-                    <li><a href="http://simple-node-server-caquillo.c9.io/modern-internet/email.html">Email</a></li>
-                    <li class="divider"></li>
-                    <li><a href="http://simple-node-server-caquillo.c9.io/modern-internet/search-engines.html">Search Enginges</a></li>
-                    <li class="divider"></li>
-                    <li><a href="http://simple-node-server-caquillo.c9.io/modern-internet/blogging.html">Blogging</a></li>
-                    <li class="divider"></li>
-                    <li class="active"><a href="http://simple-node-server-caquillo.c9.io/modern-internet/video-streaming.html">Video Streaming</a></li>
-                    <li class="divider"></li>
-                    <li><a href="http://simple-node-server-caquillo.c9.io/modern-internet/microblog-social-networking.html">Microblog Social Networking</a></li>
-                    <li class="divider"></li>
-               </ul>
-               
                <!-- Navigation bar -->
                <nav class="white" role="navigation">
-                  <div class="nav-wrapper">
+                  <div class="nav-wrapper container">
                     <a id="logo-container" href="http://simple-node-server-caquillo.c9.io/modern-internet/index.html" class="brand-logo">CMSC2 Works</a>
                     <ul class="right hide-on-med-and-down">
                       <li><a class="dropdown-button" href="#!" data-activates="dropdown1">N°2 Topics<i class="material-icons right">expand_more</i></a>
+                        <!-- Dropdown Structure -->
+                         <ul id="dropdown1" class="dropdown-content">
+                              <li><a href="http://simple-node-server-caquillo.c9.io/modern-internet/index.html" class="red-text text-lighten-3"><i class="left material-icons">location_city</i>Home</a></li>
+                              <li class="divider"></li>
+                              <li><a href="http://simple-node-server-caquillo.c9.io/modern-internet/network-protocols.html" class="red-text text-lighten-3">Network Protocols</a></li>
+                              <li class="divider"></li>
+                              <li><a href="http://simple-node-server-caquillo.c9.io/modern-internet/email.html" class="red-text text-lighten-3">Email</a></li>
+                              <li class="divider"></li>
+                              <li><a href="http://simple-node-server-caquillo.c9.io/modern-internet/search-engines.html" class="red-text text-lighten-3">Search Enginges</a></li>
+                              <li class="divider"></li>
+                              <li><a href="http://simple-node-server-caquillo.c9.io/modern-internet/blogging.html" class="red-text text-lighten-3">Blogging</a></li>
+                              <li class="divider"></li>
+                              <li class="active"><a href="http://simple-node-server-caquillo.c9.io/modern-internet/video-streaming.html" class="red-text text-lighten-3">Video Streaming</a></li>
+                              <li class="divider"></li>
+                              <li><a href="http://simple-node-server-caquillo.c9.io/modern-internet/microblog-social-networking.html" class="red-text text-lighten-3">Microblog Social Networking</a></li>
+                              <li class="divider"></li>
+                         </ul>
                     </ul>
                     
                     <ul id="nav-mobile" class="side-nav">
@@ -47,7 +46,7 @@
                          <li><a href="http://simple-node-server-caquillo.c9.io/modern-internet/email.html">Email</a></li>
                          <li><a href="http://simple-node-server-caquillo.c9.io/modern-internet/search-engines.html">Search Enginges</a></li>
                          <li><a href="http://simple-node-server-caquillo.c9.io/modern-internet/blogging.html">Blogging</a></li>
-                         <li class="active"><a href="http://simple-node-server-caquillo.c9.io/modern-internet/video-streaming.html">Video Streaming</a></li>
+                         <li><a href="http://simple-node-server-caquillo.c9.io/modern-internet/video-streaming.html">Video Streaming</a></li>
                          <li><a href="http://simple-node-server-caquillo.c9.io/modern-internet/microblog-social-networking.html">Microblog Social Networking</a></li>
                     </ul>
                     
@@ -55,30 +54,54 @@
                   </div>
                </nav>
 
-               <br>
-
-               <!-- THIS CONTAINS THE PARTS YOU HAVE TO CHANGE -->
-               <div class="container">
-                <div class="row">
-                  <div class="col s12">
-                    <div class="card">
-                      <div class="card-image">
-                        <img src="materialize/photo5.jpg"> <!-- CHANGE THE PHOTO -->
-                        <span class="card-title">Video Streaming</span> <!-- CHANGE THE CARD TITLE -->
-                      </div>
-                      <div class="card-content">
-                        <p id="videostream">Brief information on the history of video streaming and how it became a viral success</p> <!-- CHANGE THE CONTENT AND ID -->
-                      </div>
-                      <div class="card-action">
-                        <a href="#" onclick="readon()">Read on</a>
-                      </div>
+               <!-- Last parallax -->
+               <div class="parallax-container valign-wrapper">
+                <div class="section no-pad-bot">
+                  <div class="container">
+                    <div class="row center">
+                      <h5 class="header col s12 light white-text">Brief information on the history of video streaming and how it became a viral success</h5>
                     </div>
                   </div>
                 </div>
+                <div class="parallax"><img src="materialize/photo5.jpg" alt="Unsplashed background img 5"></div>
+               </div>
+
+               <!-- for whole paragraphs -->
+               <div class="container">
+                <div class="section">
+            
+                  <div class="row">
+                    <div class="col s12 center">
+                      <h4><i class="medium material-icons brown-text">ondemand_video</i></h4>
+                      <p class="center-align">
+                         <!-- Modal Trigger -->
+                                <a class="waves-effect waves-light red lighten-3 btn modal-trigger" href="#modal1">Read on</a>
+                              <!-- Modal Structure -->
+                                <div id="modal1" class="modal modal-fixed-footer">
+                                  <div class="modal-content left-align">
+                                    <h4>Video Streaming</h4>
+                                    <p>Just like how information is broken down into packets, video files are also chopped into pieces which are sent one after the other to the receiving end. Such method is necessary because video files are <em>immense</em>. Just so you know, streaming is time-based and multi-processed, so it contains 3 layers of data management - encoded bits (aac anyone?), a container that holds the bits together (mp4, for example), and a transport that moves the stream from the media server to the player. M3U8 files exist - which is a type of special file - responsible for telling the player the specific order in which to play the video.</p>
+                                  </div>
+                                  <div class="modal-footer">
+                                    <a href="#!" class=" modal-action modal-close waves-effect waves-light btn-flat">Close</a>
+                                  </div>
+                                </div></p>
+
+                    </div>
+                  </div>
+            
+                </div>
+               </div>
+
+               <!-- Button -->
+               <div class="fixed-action-btn" style="top: 42%; right: 24px;">
+                   <a href="http://simple-node-server-caquillo.c9.io/modern-internet/microblog-social-networking.html" class="btn-floating btn-large transparent">
+                     <i class="medium material-icons white-text">arrow_forward</i>
+                   </a>
                </div>
 
                <!-- Footer -->
-               <footer class="page-footer teal">
+               <footer class="page-footer red lighten-3">
                 <div class="container">
                   <div class="row">
                     <div class="col l6 s12">
@@ -108,7 +131,7 @@
                 </div>
                 <div class="footer-copyright">
                   <div class="container">
-                  All rights reserved © CA Works 2015 | Design by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+                  All rights reserved © CA Works 2015 | Design by <a class="white-text" href="http://materializecss.com">Materialize</a>
                   </div>
                 </div>
               </footer>
@@ -129,12 +152,13 @@
                    }
                  );
                </script>
-               
-               <!-- CHANGE THE ONE INSIDE ('') AND THE ONE INSIDE '' -->
+
                <script>
-                    function readon() {
-                      document.getElementById('videostream').innerHTML = 'Just like how information is broken down into packets, video files are also chopped into pieces which are sent one after the other to the receiving end. Such method is necessary because video files are <em>huge</em>. Just so you know, streaming is time-based and multi-processed, so it contains 3 layers of data management - encoded bits (aac?), a container that holds the bits together (mp4), and a transport that moves the stream from the media server to the player. M3U8 files exist, which is a type of special file. It is responsible for telling the player the specific order in which to play the video.'
-                    }
+                    $(document).ready(function(){
+                    // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+                    $('.modal-trigger').leanModal();
+                   }
+                 );
                </script>
               
            </body>
